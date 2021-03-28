@@ -1,78 +1,76 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
 }
 
 body {
-    display: grid;
-    background-color: rgb(252, 249, 227);
-    max-width: 1366px;
-    align-content: center;
+  background-color: rgb(252, 249, 227);
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
-header{
-    background-image: url(../../img/header-img.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: bottom;
-    height: 625px;
+header {
+  background-image: url(../../img/header-img.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom;
+  height: 625px;
 }
 
 h1 {
-    font-family: candara;
-    font-weight: 400;
-    font-size: 36pt;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+  font-family: candara;
+  font-weight: 400;
+  font-size: 36pt;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 h3 {
-    font-family: Times, serif;
-    font-style: oblique;
-    font-size: 18pt;
-    font-weight: 100;
+  font-family: Times, serif;
+  font-style: oblique;
+  font-size: 18pt;
+  font-weight: 100;
 }
 
 .title {
-    position: absolute;
-    width: 100%;
-    margin-top: 50px;
-    margin-left: 60px;
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 60px;
 }
 
 .gallery {
-    margin: 20px;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
 }
 
 .gallery img {
-    padding: 3px;
-    width: 300px;
-    align-content: space-around;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.menu ul li{
-    display: inline;
-    padding: 10px;
+.menu ul li {
+  display: inline;
+  padding: 10px;
 }
 
 .menu a {
-    text-decoration: none;
-    font-family: candara;
-    font-weight: 600;
-    color: black;
+  text-decoration: none;
+  font-family: candara;
+  font-weight: 600;
+  color: black;
 }
 
 .menu ul {
-    padding-top: 50px;
-    padding-left: 60px ;
+  padding-top: 50px;
+  padding-left: 60px;
 }
 
 .text {
-    padding: 30px;
-    text-align: center;
+  padding: 30px;
+  text-align: center;
 }
