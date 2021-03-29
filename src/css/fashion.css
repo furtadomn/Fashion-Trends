@@ -12,11 +12,11 @@ body {
 }
 
 header {
-  background-image: url(../../img/header-img.jpg);
+  background-image: url(/img/header-img.jpg);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: bottom;
-  height: 625px;
+  background-position: top;
+  height: 400px;
 }
 
 h1 {
