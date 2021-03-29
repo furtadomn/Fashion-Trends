@@ -45,12 +45,19 @@ h3 {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
-  gap: 26px;
 }
 
 .gallery img {
   width: 100%;
   margin: 0 auto;
+}
+
+.row-span-2 {
+    grid-row: span 2;
+}
+
+.column-span-2 {
+    grid-column: span 2;
 }
 
 .menu ul li {
