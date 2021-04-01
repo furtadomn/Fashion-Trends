@@ -62,7 +62,6 @@ h3 {
 
 .menu ul li {
   display: inline;
-  padding: 10px;
 }
 
 .menu a {
@@ -70,6 +69,11 @@ h3 {
   font-family: candara;
   font-weight: 600;
   color: black;
+  padding: 5px;
+}
+
+.menu a:hover {
+  background-color: yellow;
 }
 
 .menu ul {
