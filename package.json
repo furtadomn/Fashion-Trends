@@ -1,0 +1,25 @@
+{
+  "name": "fashion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furtadomn/Fashion-Trends.git"
+  },
+  "keywords": [
+    "fashion"
+  ],
+  "author": "Marcella Nicolini Furtado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furtadomn/Fashion-Trends/issues"
+  },
+  "homepage": "https://github.com/furtadomn/Fashion-Trends#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
