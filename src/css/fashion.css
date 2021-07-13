@@ -5,7 +5,7 @@
   list-style: none;
 }
 
-header {
+.header {
   background-image: url(/img/header-img.jpg);
   background-repeat: no-repeat;
   background-size: auto;
